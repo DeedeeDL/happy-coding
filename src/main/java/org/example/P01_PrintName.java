@@ -1,4 +1,6 @@
-public class Basic_declaration {
+package org.example;
+
+public class P01_PrintName {
     public static void main(String[] args) {
         /* Write a Java program to print your name, date of birth, and mobile number.
         Expected Output:
