@@ -1,4 +1,6 @@
-public class C016 {
+package org.example;
+
+public class P02_CircleAreaAndPerimeter {
     public static void main(String[] args) {
         /*Write a C program to compute the perimeter and area of a circle with a given radius.
 Expected Output:
