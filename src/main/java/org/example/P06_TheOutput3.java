@@ -3,6 +3,6 @@ package org.example;
 public class P06_TheOutput3 {
     public static void main(String[] args) {
         System.out.println(9+6-3*4/2%5);
-        /* The result will be 14 and the priority of operators : * / % + - 
+        /* The result will be 14 and the priority of operators : * / % + -  */
     }
 }
