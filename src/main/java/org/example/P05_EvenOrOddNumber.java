@@ -7,10 +7,10 @@ public class P05_EvenOrOddNumber {
         int num1 = myNumber.nextInt();  // I created a variable named num1
      // I will use if and else to see if the number is odd or even
         if ( num1%2==0 ){
-            System.out.println("The number " + num1 + " is even");
+            System.out.println("The number " + num1 + " is an even number");
         }
         else {
-            System.out.println("The number " + num1 + " is odd;");}
+            System.out.println("The number " + num1 + " is an odd number;");}
 
 
 
