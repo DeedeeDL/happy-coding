@@ -2,7 +2,7 @@ package org.example;
 import java.util.Scanner;
 
 
-public class P04_TakingTwoNumbersWithScannerPlusTheirSum {
+public class P04_SumTwoNumbers {
     public static void main(String[] args) {
         Scanner number = new Scanner(System.in);
         System.out.println("Enter your first number:" );
