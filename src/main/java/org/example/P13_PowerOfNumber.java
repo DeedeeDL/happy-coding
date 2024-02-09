@@ -1,7 +1,7 @@
 package org.example;
 import java.util.Scanner;
 
-public class P12_PowerOfNumber {
+public class P13_PowerOfNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Print your number: ");
