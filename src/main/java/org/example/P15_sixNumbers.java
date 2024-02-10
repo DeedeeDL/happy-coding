@@ -18,6 +18,6 @@ public class P15_sixNumbers {
         System.out.println("Enter your sixth number : ");
         int numberSix = scanner.nextInt();
 
-        System.out.println("The average of your six numbers is: " + (numberOne + numberTwo + numberThree + numberFour + numberFive + numberSix) / 6);
+        System.out.println("The average of your six numbers is: " + (numberOne + numberTwo + numberThree + numberFour + numberFive + numberSix) / 6.0);
     }
 }
