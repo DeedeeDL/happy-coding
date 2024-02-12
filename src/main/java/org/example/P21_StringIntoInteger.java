@@ -1,6 +1,6 @@
 package org.example;
 
-public class p21_stringIntoInteger {
+public class P21_StringIntoInteger {
     public static void main(String[] args) {
         String text = "1234";
         int numar = Integer.valueOf(text);
