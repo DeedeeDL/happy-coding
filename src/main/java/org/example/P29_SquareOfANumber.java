@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class P29_squareOfANumber {
+public class P29_SquareOfANumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number: ");
