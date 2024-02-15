@@ -2,10 +2,10 @@ package org.example;
 
 import java.util.Scanner;
 
-public class P20_sumOfDigits {
+public class P20_SumOfDigits {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your number: ");/ 2314
+        System.out.println("Enter your number:");
         int number = scanner.nextInt();
         int sum = 0;
 
