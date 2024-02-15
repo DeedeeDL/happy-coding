@@ -7,6 +7,6 @@ public class C03_02_SumOfNumbers {
         for (int i=0; i<=10; i++){
             sum = sum + i;
         }
-        System.out.println("Suma primelor 10 numere este: " + suma);
+        System.out.println("Suma primelor 10 numere este: " + sum);
     }
 }
