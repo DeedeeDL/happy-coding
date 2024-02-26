@@ -8,10 +8,9 @@ public class C02_20_MultipleOf {
         System.out.println("Enter your number: ");
         int number = scanner.nextInt();
 
-        if (number %3 == 0 ^ number %7 ==0){
+        if (number % 3 == 0 ^ number % 7 == 0) {
             System.out.println(true);
-        }
-        else {
+        } else {
             System.out.println(false);
 
         }
