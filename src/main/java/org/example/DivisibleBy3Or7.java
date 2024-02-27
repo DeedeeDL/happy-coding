@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class C02_05_MultipleOf {
+public class DivisibleBy3Or7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter you number: ");
