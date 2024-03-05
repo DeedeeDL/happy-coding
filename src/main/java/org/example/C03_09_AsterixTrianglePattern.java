@@ -1,6 +1,6 @@
 package org.example;
 import java.util.Scanner;
-public class C03_09_AsterixPattern {
+public class C03_09_AsterixTrianglePattern {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of rows: ");
