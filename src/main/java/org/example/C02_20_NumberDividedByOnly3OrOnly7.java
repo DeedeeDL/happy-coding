@@ -12,8 +12,7 @@ public class C02_20_NumberDividedByOnly3OrOnly7 {
             System.out.println(false);
         } else if (number % 3 == 0 || number % 7 == 0) {
             System.out.println(true);
-        }
-        else {
+        } else {
             System.out.println(false);
         }
     }
