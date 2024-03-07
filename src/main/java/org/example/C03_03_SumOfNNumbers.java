@@ -10,6 +10,6 @@ public class C03_03_SumOfNNumbers {
             sum = sum + i;
 
         }
-        System.out.println("Suma numerelor este de: " + sum);
+        System.out.println("The sum of the numbers is: " + sum);
     }
 }
