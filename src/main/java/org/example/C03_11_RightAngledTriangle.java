@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class C03_11_PatternAngledTriangleRepeatedNumberInRow {
+public class C03_11_RightAngledTriangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of rows:");
