@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class C03_12_RightAngledTriangle {
+public class C03_12_RightAngledTrianglePatternWithIncreasingNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of rows: ");
