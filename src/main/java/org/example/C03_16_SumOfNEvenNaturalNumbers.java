@@ -11,7 +11,7 @@ public class C03_16_SumOfNEvenNaturalNumbers {
         int sum = 0;
         for (int i = 1; i <= n; i++) {
             int evenNumber = 2 * i;
-            sum += evenNumber;
+            sum = sum+ evenNumber;
         }
         System.out.println("The sum of first " + n + " even natural numbers is: " + sum);
 
