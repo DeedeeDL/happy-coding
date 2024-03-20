@@ -10,14 +10,15 @@ public class C03_38_Palindrome_Number {
         int reverse = 0;
         int orig_number = number;
 
-        for (orig_number=number; number > 0; ){
-            reverse=reverse*10+number%10;
-            number = number/10;
+        while (number > 0) {
+            reverse = reverse * 10 + number % 10;
+            number = number / 10;
         }
-        if (orig_number == reverse){
-        System.out.println(orig_number + " is a polindrome number");}
-        else {
-            System.out.println(orig_number + " is not a polindrome number");}
+        if (orig_number == reverse) {
+            System.out.println(orig_number + " is a polindrome number");
+        } else {
+            System.out.println(orig_number + " is not a polindrome number");
+        }
 
     }
 }
