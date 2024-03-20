@@ -9,10 +9,10 @@ public class C03_37_ReverseOfANumber {
         int number = scanner.nextInt();
         int reverse = 0;
 
-        while (number>0){
-            reverse=reverse*10+number%10;
-            number = number/10;
-                            }
+        while (number > 0) {
+            reverse = reverse * 10 + number % 10;
+            number = number / 10;
+        }
         System.out.println("The reverse of the number is: " + reverse);
 
     }
