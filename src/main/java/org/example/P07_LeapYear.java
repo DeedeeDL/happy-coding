@@ -12,7 +12,7 @@ public class P07_LeapYear {
                     result = false;
                 }
             } else {
-                result = false;
+                result = true;
             }
          }     else {
             result = false;
