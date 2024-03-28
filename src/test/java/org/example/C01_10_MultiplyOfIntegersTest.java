@@ -4,19 +4,19 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class C01_10_ProductOfIntegersTest {
+public class C01_10_MultiplyOfIntegersTest {
 
     @Test
-    public void prod() {
+    public void multiply() {
         //given input
         int num1 = 5;
         int num2 = 6;
 
         //method call
-        int prod = C01_10_ProductOfIntegers.prod(num1, num2);
+        int multiply = C01_10_MultiplyOfIntegers.multiply(num1, num2);
 
 
         //assert the result
-        assertEquals(30, prod);
+        assertEquals(30, multiply);
     }
 }
