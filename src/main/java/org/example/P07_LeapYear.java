@@ -1,5 +1,7 @@
 package org.example;
+
 import java.util.Scanner;
+
 public class P07_LeapYear {
     public static boolean isLeapYear(int myYear) {
 
@@ -14,10 +16,10 @@ public class P07_LeapYear {
             } else {
                 result = true;
             }
-         }     else {
+        } else {
             result = false;
         }
-             return result;
-        }
+        return result;
     }
+}
 
