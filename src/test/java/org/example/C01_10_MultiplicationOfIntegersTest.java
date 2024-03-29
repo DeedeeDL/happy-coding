@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class C01_10_MultiplyOfIntegersTest {
+public class C01_10_MultiplicationOfIntegersTest {
 
     @Test
     public void multiply() {
@@ -13,7 +13,7 @@ public class C01_10_MultiplyOfIntegersTest {
         int num2 = 6;
 
         //method call
-        int multiplication = C01_10_MultiplyOfIntegers.multiply(num1, num2);
+        int multiplication = C01_10_MultiplicationOfIntegers.multiply(num1, num2);
 
 
         //assert the result
