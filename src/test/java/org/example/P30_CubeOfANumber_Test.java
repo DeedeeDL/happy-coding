@@ -12,7 +12,7 @@ class P30_CubeOfANumber_Test {
         int number = 5;
         //method call
         int cube = P30_CubeOfANumber.cube(number);
-       //assert the result
+        //assert the result
         assertEquals(125, cube);
     }
 }
