@@ -13,10 +13,10 @@ public class C01_10_MultiplyOfIntegersTest {
         int num2 = 6;
 
         //method call
-        int multiply = C01_10_MultiplyOfIntegers.multiply(num1, num2);
+        int multiplication = C01_10_MultiplyOfIntegers.multiply(num1, num2);
 
 
         //assert the result
-        assertEquals(30, multiply);
+        assertEquals(30, multiplication);
     }
 }
