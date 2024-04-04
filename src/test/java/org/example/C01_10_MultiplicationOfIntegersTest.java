@@ -7,16 +7,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class C01_10_MultiplicationOfIntegersTest {
 
     @Test
-    public void multiply() {
-        //given input
-        int num1 = 5;
-        int num2 = 6;
+        public void testMultiplication() {
+            // Given input
+            int num1 = 5;
+            int num2 = 6;
 
-        //method call
-        int multiplication = C01_10_MultiplicationOfIntegers.multiply(num1, num2);
+            // Method call
+            int multiplicationResult = C01_10_MultiplicationOfIntegers.multiplication(num1, num2);
 
-
-        //assert the result
-        assertEquals(30, multiplication);
+            // Assert the result
+            assertEquals(30, multiplicationResult);
     }
 }
