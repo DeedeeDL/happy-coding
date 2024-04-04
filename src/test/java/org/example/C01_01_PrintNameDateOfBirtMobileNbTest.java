@@ -6,31 +6,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class C01_01_PrintNameDateOfBirtMobileNbTest {
     @Test
-    public void name() {
+    public void personDetails() {
 
-        String nume1 = "Diana-Lavinia";
-        String names = C01_01_PrintNameDateOfBirtMobileNb.names(nume1);
-        assertEquals("Diana-Lavinia", names);
-
-
-    }
-    @Test
-    public void name2() {
-
+        String name = "Diana-Lavinia";
         String dateOfBirth = "16.09.1989";
-        String names = C01_01_PrintNameDateOfBirtMobileNb.birthdates(dateOfBirth);
-        assertEquals("16.09.1989", dateOfBirth);
-
-
+        String number = "0730......";
+        String person = C01_01_PrintNameDateOfBirtMobileNb.personDetails(name, dateOfBirth, number);
+        String expected = "Name: Diana-Lavinia, Date of Birth: 16.09.1989, Mobile Number: 0730......";
+        assertEquals(expected, person);
     }
-    @Test
-    public void phonenb() {
-
-        int phonenumb = 07;
-        int phone = C01_01_PrintNameDateOfBirtMobileNb.phone(phonenumb);
-        assertEquals(07, phone);
-
 
     }
 
-}
