@@ -6,11 +6,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class P19_rectanglePerimeterTest {
     @Test
-    public void perimeter() {
+    public void perimeterOfRectangle() {
 
         int width = 5;
         int height = 6;
-        int sum = P19_rectanglePerimeter.sum(width, height);
+        int sum = P19_rectanglePerimeter.perimeter(width, height);
         assertEquals(22, sum);
     }
 
