@@ -10,8 +10,8 @@ class P19_rectanglePerimeterTest {
 
         int width = 5;
         int height = 6;
-        int sum = P19_rectanglePerimeter.perimeter(width, height);
-        assertEquals(22, sum);
+        int perimeter = P19_rectanglePerimeter.perimeter(width, height);
+        assertEquals(22, perimeter);
     }
 
 }
