@@ -1,7 +1,16 @@
+
 package org.example;
-public class C01_10_MultiplicationOfIntegers {
-    public static int multiplication(int num1, int num2) {
-        int multiplication = num1 * num2;
-        return multiplication;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class P21_StringIntoIntegerTest {
+    @Test
+    void getNumber() {
+        String text= "1234";
+        int number = P21_StringIntoInteger.stringToInteger(text);
+        assertEquals("1234", text);
+
     }
 }
