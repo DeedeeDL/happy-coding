@@ -11,6 +11,6 @@ class P03_ArithmeticOperatorsTest {
     void arithmeticOperation() {
         int result = 9 + 6 - 3 * 4 / 2 % 5;
         int operation = P03_ArithmeticOperators.arithmetic();
-        assertEquals(14, operation); // The correct result should be 11, not 14.
+        assertEquals(14, operation); 
     }
 }
