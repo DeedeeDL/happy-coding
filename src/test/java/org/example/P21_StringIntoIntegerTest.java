@@ -7,9 +7,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class P21_StringIntoIntegerTest {
     @Test
     void getNumber() {
-        String text= "1234";
-        int number = P21_StringIntoInteger.stringToInteger(text);
-        assertEquals("1234", text);
+        String number = "1234";
+        int text = P21_StringIntoInteger.stringToInteger(number);
+        assertEquals(1234, text);
 
     }
 }
