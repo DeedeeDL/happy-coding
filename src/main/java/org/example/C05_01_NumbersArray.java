@@ -1,11 +1,15 @@
 package org.example;
 
 public class C05_01_NumbersArray {
-    public static void main(String[] args) {
+    public static int[] createArray(int i0, int i1, int i2, int i3, int i4) {
+        int[] array = new int[5];
 
-        int[] myNumbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        for (int i = 0; i < 11; i++) {
-            System.out.println(myNumbers[i]);
-        }
+        array[0] = i0;
+        array[1] = i1;
+        array[2] = i2;
+        array[3] = i3;
+        array[4] = i4;
+
+        return array;
     }
 }
